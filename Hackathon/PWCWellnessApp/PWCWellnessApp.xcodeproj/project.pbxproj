@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368CF27B29B3D244007F2F3C /* PWCWellnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF27A29B3D244007F2F3C /* PWCWellnessAppApp.swift */; };
+		368CF27D29B3D244007F2F3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF27C29B3D244007F2F3C /* ContentView.swift */; };
+		368CF27F29B3D245007F2F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368CF27E29B3D245007F2F3C /* Assets.xcassets */; };
+		368CF28229B3D245007F2F3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368CF28129B3D245007F2F3C /* Preview Assets.xcassets */; };
+		368CF28429B3D245007F2F3C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF28329B3D245007F2F3C /* Persistence.swift */; };
+		368CF28729B3D245007F2F3C /* PWCWellnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 368CF28529B3D245007F2F3C /* PWCWellnessApp.xcdatamodeld */; };
+		368CF29129B3D245007F2F3C /* PWCWellnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF29029B3D245007F2F3C /* PWCWellnessAppTests.swift */; };
+		368CF29B29B3D245007F2F3C /* PWCWellnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF29A29B3D245007F2F3C /* PWCWellnessAppUITests.swift */; };
+		368CF29D29B3D245007F2F3C /* PWCWellnessAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368CF29C29B3D245007F2F3C /* PWCWellnessAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368CF28D29B3D245007F2F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368CF26F29B3D244007F2F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368CF27629B3D244007F2F3C;
+			remoteInfo = PWCWellnessApp;
+		};
+		368CF29729B3D245007F2F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368CF26F29B3D244007F2F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368CF27629B3D244007F2F3C;
+			remoteInfo = PWCWellnessApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368CF27729B3D244007F2F3C /* PWCWellnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWCWellnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368CF27A29B3D244007F2F3C /* PWCWellnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCWellnessAppApp.swift; sourceTree = "<group>"; };
+		368CF27C29B3D244007F2F3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		368CF27E29B3D245007F2F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368CF28129B3D245007F2F3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		368CF28329B3D245007F2F3C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		368CF28629B3D245007F2F3C /* PWCWellnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PWCWellnessApp.xcdatamodel; sourceTree = "<group>"; };
+		368CF28C29B3D245007F2F3C /* PWCWellnessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWCWellnessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368CF29029B3D245007F2F3C /* PWCWellnessAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCWellnessAppTests.swift; sourceTree = "<group>"; };
+		368CF29629B3D245007F2F3C /* PWCWellnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWCWellnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368CF29A29B3D245007F2F3C /* PWCWellnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCWellnessAppUITests.swift; sourceTree = "<group>"; };
+		368CF29C29B3D245007F2F3C /* PWCWellnessAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCWellnessAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368CF27429B3D244007F2F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF28929B3D245007F2F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF29329B3D245007F2F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368CF26E29B3D244007F2F3C = {
+			isa = PBXGroup;
+			children = (
+				368CF27929B3D244007F2F3C /* PWCWellnessApp */,
+				368CF28F29B3D245007F2F3C /* PWCWellnessAppTests */,
+				368CF29929B3D245007F2F3C /* PWCWellnessAppUITests */,
+				368CF27829B3D244007F2F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368CF27829B3D244007F2F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368CF27729B3D244007F2F3C /* PWCWellnessApp.app */,
+				368CF28C29B3D245007F2F3C /* PWCWellnessAppTests.xctest */,
+				368CF29629B3D245007F2F3C /* PWCWellnessAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368CF27929B3D244007F2F3C /* PWCWellnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				368CF27A29B3D244007F2F3C /* PWCWellnessAppApp.swift */,
+				368CF27C29B3D244007F2F3C /* ContentView.swift */,
+				368CF27E29B3D245007F2F3C /* Assets.xcassets */,
+				368CF28329B3D245007F2F3C /* Persistence.swift */,
+				368CF28529B3D245007F2F3C /* PWCWellnessApp.xcdatamodeld */,
+				368CF28029B3D245007F2F3C /* Preview Content */,
+			);
+			path = PWCWellnessApp;
+			sourceTree = "<group>";
+		};
+		368CF28029B3D245007F2F3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				368CF28129B3D245007F2F3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		368CF28F29B3D245007F2F3C /* PWCWellnessAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				368CF29029B3D245007F2F3C /* PWCWellnessAppTests.swift */,
+			);
+			path = PWCWellnessAppTests;
+			sourceTree = "<group>";
+		};
+		368CF29929B3D245007F2F3C /* PWCWellnessAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				368CF29A29B3D245007F2F3C /* PWCWellnessAppUITests.swift */,
+				368CF29C29B3D245007F2F3C /* PWCWellnessAppUITestsLaunchTests.swift */,
+			);
+			path = PWCWellnessAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368CF27629B3D244007F2F3C /* PWCWellnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CF2A029B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessApp" */;
+			buildPhases = (
+				368CF27329B3D244007F2F3C /* Sources */,
+				368CF27429B3D244007F2F3C /* Frameworks */,
+				368CF27529B3D244007F2F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWCWellnessApp;
+			productName = PWCWellnessApp;
+			productReference = 368CF27729B3D244007F2F3C /* PWCWellnessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368CF28B29B3D245007F2F3C /* PWCWellnessAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CF2A329B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessAppTests" */;
+			buildPhases = (
+				368CF28829B3D245007F2F3C /* Sources */,
+				368CF28929B3D245007F2F3C /* Frameworks */,
+				368CF28A29B3D245007F2F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368CF28E29B3D245007F2F3C /* PBXTargetDependency */,
+			);
+			name = PWCWellnessAppTests;
+			productName = PWCWellnessAppTests;
+			productReference = 368CF28C29B3D245007F2F3C /* PWCWellnessAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368CF29529B3D245007F2F3C /* PWCWellnessAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368CF2A629B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessAppUITests" */;
+			buildPhases = (
+				368CF29229B3D245007F2F3C /* Sources */,
+				368CF29329B3D245007F2F3C /* Frameworks */,
+				368CF29429B3D245007F2F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368CF29829B3D245007F2F3C /* PBXTargetDependency */,
+			);
+			name = PWCWellnessAppUITests;
+			productName = PWCWellnessAppUITests;
+			productReference = 368CF29629B3D245007F2F3C /* PWCWellnessAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368CF26F29B3D244007F2F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					368CF27629B3D244007F2F3C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					368CF28B29B3D245007F2F3C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 368CF27629B3D244007F2F3C;
+					};
+					368CF29529B3D245007F2F3C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 368CF27629B3D244007F2F3C;
+					};
+				};
+			};
+			buildConfigurationList = 368CF27229B3D244007F2F3C /* Build configuration list for PBXProject "PWCWellnessApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368CF26E29B3D244007F2F3C;
+			productRefGroup = 368CF27829B3D244007F2F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368CF27629B3D244007F2F3C /* PWCWellnessApp */,
+				368CF28B29B3D245007F2F3C /* PWCWellnessAppTests */,
+				368CF29529B3D245007F2F3C /* PWCWellnessAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368CF27529B3D244007F2F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CF28229B3D245007F2F3C /* Preview Assets.xcassets in Resources */,
+				368CF27F29B3D245007F2F3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF28A29B3D245007F2F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF29429B3D245007F2F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368CF27329B3D244007F2F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CF28429B3D245007F2F3C /* Persistence.swift in Sources */,
+				368CF27D29B3D244007F2F3C /* ContentView.swift in Sources */,
+				368CF27B29B3D244007F2F3C /* PWCWellnessAppApp.swift in Sources */,
+				368CF28729B3D245007F2F3C /* PWCWellnessApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF28829B3D245007F2F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CF29129B3D245007F2F3C /* PWCWellnessAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368CF29229B3D245007F2F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CF29D29B3D245007F2F3C /* PWCWellnessAppUITestsLaunchTests.swift in Sources */,
+				368CF29B29B3D245007F2F3C /* PWCWellnessAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368CF28E29B3D245007F2F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368CF27629B3D244007F2F3C /* PWCWellnessApp */;
+			targetProxy = 368CF28D29B3D245007F2F3C /* PBXContainerItemProxy */;
+		};
+		368CF29829B3D245007F2F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368CF27629B3D244007F2F3C /* PWCWellnessApp */;
+			targetProxy = 368CF29729B3D245007F2F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		368CF29E29B3D245007F2F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368CF29F29B3D245007F2F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368CF2A129B3D245007F2F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PWCWellnessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 64859F754N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368CF2A229B3D245007F2F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PWCWellnessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 64859F754N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		368CF2A429B3D245007F2F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64859F754N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWCWellnessApp.app/PWCWellnessApp";
+			};
+			name = Debug;
+		};
+		368CF2A529B3D245007F2F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64859F754N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWCWellnessApp.app/PWCWellnessApp";
+			};
+			name = Release;
+		};
+		368CF2A729B3D245007F2F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64859F754N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PWCWellnessApp;
+			};
+			name = Debug;
+		};
+		368CF2A829B3D245007F2F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64859F754N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JagtapHackathon.PWCWellnessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PWCWellnessApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368CF27229B3D244007F2F3C /* Build configuration list for PBXProject "PWCWellnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CF29E29B3D245007F2F3C /* Debug */,
+				368CF29F29B3D245007F2F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368CF2A029B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CF2A129B3D245007F2F3C /* Debug */,
+				368CF2A229B3D245007F2F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368CF2A329B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CF2A429B3D245007F2F3C /* Debug */,
+				368CF2A529B3D245007F2F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368CF2A629B3D245007F2F3C /* Build configuration list for PBXNativeTarget "PWCWellnessAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368CF2A729B3D245007F2F3C /* Debug */,
+				368CF2A829B3D245007F2F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		368CF28529B3D245007F2F3C /* PWCWellnessApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				368CF28629B3D245007F2F3C /* PWCWellnessApp.xcdatamodel */,
+			);
+			currentVersion = 368CF28629B3D245007F2F3C /* PWCWellnessApp.xcdatamodel */;
+			path = PWCWellnessApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 368CF26F29B3D244007F2F3C /* Project object */;
+}
